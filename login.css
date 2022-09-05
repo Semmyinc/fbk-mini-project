@@ -1,0 +1,242 @@
+body
+{
+    background-color: rgb(240, 242, 245);
+}
+.whole1
+{
+    background-color: rgb(240, 242, 245);
+    width: 205vh;
+    height: 95vh;
+    /* background-color: aqua; */
+}
+
+header
+{
+    width: 450px;
+    height: 400px;
+    background-color: transparent;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header img
+{
+    width: 400px;
+    height: 150px;
+    margin: -250px auto 0 auto
+}
+
+.page1
+{
+    width: 410px;
+    height: fit-content;
+    background-color: white;
+    border-radius: 10px;
+    margin: -250px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page1 input
+{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px auto;
+    outline: none;
+    border: 1px solid lightgrey;
+    font-size: large;
+    /* font-weight: 600; */
+    color: rgb(101 103 107)
+}
+
+#but1 button
+{
+    background-color: rgb(24, 119, 242);
+    color: white;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin: -10px auto 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+#but1 a
+{
+    text-decoration: none;
+    color: white;
+}
+
+#page11 
+{
+    margin: auto 0 auto 135px ;
+}
+
+#page12
+{
+    border-bottom: 1px solid lightgrey;
+}
+
+.page1 a
+{
+    color: rgb(24, 119, 243);
+    text-decoration: none;
+    
+}
+
+.page1 a:hover
+{
+    text-decoration: underline;
+}
+
+#page13
+{
+    margin: auto 0 auto 135px ;
+    font-size: large;
+    font-weight: 600;
+    color: rgb(50 50 50)
+}
+
+#sign-up
+{
+    position: relative;
+}
+
+#sign-up button
+{
+    background-color: rgb(66, 183, 42);
+    color: white;
+    width: 50%;
+    height: 50px;
+    /* margin: auto; */
+    margin: auto 0 auto 100px;
+    border-radius: 5px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.sign-upc
+{
+    width: 210vh;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.6);
+    position: absolute;
+    /* background-color: tomato; */
+    display: none;
+    top:-470px;
+    left:-440px;
+}
+
+#sign-up:focus-within .sign-upc
+{
+    display: block;
+}
+
+.sign-upc1
+{
+    width: calc(410px); 
+    height: calc(fit-content) ;
+    padding: 20px;
+    height: 100%;
+    background-color: white;
+    margin: 10px 0 0 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px lightgrey;
+}
+
+.sign-upc11
+{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid rgb(183 183 183);
+    margin: 15px 0 0 0;
+}
+
+.sign-upc11 div
+{
+    width: 35%;
+    
+}
+
+.sign-upc11 h1
+{
+    margin: -10px 0 0 0;
+    font-size: larger;
+}
+
+.sign-upc11 p
+{
+    margin: 0;
+    font-size: medium;
+    color: rgb(101 103 107);
+}
+
+.sign-upc21
+{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.sign-upc21 input
+{
+    width: 50%;
+    height: 100%;
+    outline: none;
+    border: 1px solid lightgrey;
+    background-color: rgb(240, 242, 245);
+}
+
+#sur
+{
+    margin: 0 -5px 0 5px;
+    width: 215px;
+}
+
+.sign-upc22 input, .sign-upc23 input
+{
+    background-color: rgb(240, 242, 245);
+    height: 40px
+}
+
+.sign-upc24, .sign-upc25
+{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.sign-upc24 input, .sign-upc25 input
+{
+    width: 30%;
+    height: 40px;
+    font-size: small;
+}
+
+.sign-upc26
+{
+   width: 100%;
+   height: fit-content;
+}
+
+.sign-upc26 p
+{
+    margin: 10px auto;
+    font-size: 12px;
+    color: rgb(101 103 107);
+}

@@ -1,0 +1,1 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9ffd5acf-1eeb-485b-b203-c9b292c8ed1e/deploy-status)](https://app.netlify.com/sites/facebook-semmyinc/deploys)
